@@ -19,7 +19,7 @@ public class UserController {
         if (name.equals("张三")&&password.equals("123456")){
             String token = JwtUtil.sign(name, password);
             map.put("data",token);
-            System.out.println("dev123");
+            System.out.println("dev123456");
             return map;
         }
         else {
