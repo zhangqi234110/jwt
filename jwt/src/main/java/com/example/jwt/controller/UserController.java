@@ -16,7 +16,7 @@ public class UserController {
     @RequestMapping("/login")
     public HashMap login(String name,String password){
        HashMap map = new HashMap();
-        if (name.equals("张三")&&password.equals("123456")){
+        if (name.equals("张三1")&&password.equals("123456")){
             String token = JwtUtil.sign(name, password);
             map.put("data",token);
             System.out.println("dev123456");
