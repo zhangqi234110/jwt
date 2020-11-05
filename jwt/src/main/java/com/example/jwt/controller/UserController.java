@@ -24,7 +24,7 @@ public class UserController {
         }
         else {
             System.out.println("年号");
-            map.put("tip","错误");
+            map.put("tip","错误123");
             return map;
         }
     }
